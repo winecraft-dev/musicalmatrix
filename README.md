@@ -29,7 +29,7 @@ Copy cava.conf to your home directory on your Ubuntu system.
 
 Then run the command on Ubuntu:
 
-	unbuffer cava -p PATH_TO_YOUR_CAVA.conf | ssh pi@192.168.1.12 sudo python PATH_TO_LEDS.py
+	unbuffer cava -p PATH_TO_YOUR_CAVA.conf | ssh pi@IP_OF_RASPBERRYPI sudo python PATH_TO_LEDS.py
 
 ## Credits
 
